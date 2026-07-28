@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+:root {
+  --bg: #050505;
+  --bg-elevated: #0e0e0e;
+  --surface: #141414;
+  --surface-hover: #1a1a1a;
+  --border: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --text: #f3f3f3;
+  --text-muted: #9a9a9a;
+  --accent: #e8e6e3;
+  --accent-text: #0a0a0a;
+  --accent-soft: rgba(232, 230, 227, 0.14);
+  --radius-btn: 999px;
+  --btn-pad-y: 0.85rem;
+  --btn-pad-x: 1.75rem;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Cormorant Garamond", "Times New Roman", serif;
+  --font-label: "Cinzel", "Palatino Linotype", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.App {
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  min-height: 100vh;
+  color: var(--text);
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+button,
+input,
+select,
+textarea,
+a.btn {
+  font-family: var(--font-label);
+}
